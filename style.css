@@ -13,6 +13,7 @@
 body {
     color: var(--branco); /* Corrigido para usar a variável */
     background-color: var(--cor-de-fundo); /* Corrigido para usar a variável */
+    font-family: var(--roboto);
 }
 
 .titulo-principal {
@@ -23,6 +24,10 @@ body {
 .titulo-secundario {
     font-weight: 400;
     font-size: 24px;
+}
+
+.conteudo-titulo{
+    text-align: center;
 }
 
 * {
